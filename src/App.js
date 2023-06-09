@@ -1,25 +1,85 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage";
+import Nav from "./Nav";
+import { useEffect, useState } from "react";
+import dark_mode_icon from "./Images/dark-mode-icon-blue.png";
+import light_mode_icon from "./Images/light-mode-icon-orange.png";
+
 
 function App() {
+  const [theme, setTheme] = useState("light");
+  useEffect(() => {
+    if (localStorage.getItem("theme") === null) {
+      localStorage.setItem("theme", "light");
+    }
+    handleThemeSwitch();
+  }, []);
+  useEffect(() => {
+    const html = document.querySelector("html");
+    if (localStorage.getItem("theme") === "dark") {
+      html.classList.add("dark");
+      setTheme("dark");
+    } else {
+      html.classList.remove("dark");
+      setTheme("light");
+    }
+  }, [theme]);
+  const handleThemeSwitch = () => {
+    if (localStorage.getItem("theme") === "light") {
+      setTheme("dark");
+      localStorage.setItem("theme", "dark");
+      let image = document.getElementById("theme-toggle-icon");
+      image.removeAttribute("src");
+      image.setAttribute("src", light_mode_icon);
+
+      let mainDiv = document.getElementById("main-div");
+      mainDiv.removeAttribute("data-theme");
+      mainDiv.setAttribute("data-theme", "business");
+    } else {
+      setTheme("light");
+      localStorage.setItem("theme", "light");
+      let image = document.getElementById("theme-toggle-icon");
+      image.removeAttribute("src");
+      image.setAttribute("src", dark_mode_icon);
+
+      let mainDiv = document.getElementById("main-div");
+      mainDiv.removeAttribute("data-theme");
+      mainDiv.setAttribute("data-theme", "corporate");
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter >
+      <div id="main-div" data-theme="business">
+
+      <div className="navbar">
+        <Nav />
+        <div className="navbar-end">
+          <button
+            onClick={handleThemeSwitch}
+            id="theme-toggle"
+            type="button"
+            className="mr-2"
+          >
+            <img
+              className="h-10"
+              id="theme-toggle-icon"
+              src={light_mode_icon}
+              alt="Theme Icon"
+            ></img>
+          </button>
+        </div>
+      </div>
+        <div className="mx-auto min-w-screen min-h-screen">
+          <Routes>
+            <Route index element={<HomePage />} />
+          </Routes>
+        </div>
+      </div>
+      </BrowserRouter>
+    </>
   );
-}
+};
+
 
 export default App;
