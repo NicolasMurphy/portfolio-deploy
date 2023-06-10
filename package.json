@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0-placeholder-for-preset-env.2",
     "autoprefixer": "^10.4.14",
     "daisyui": "^3.0.22",
     "postcss": "^8.4.24",
