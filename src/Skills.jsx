@@ -1,36 +1,63 @@
-import django from "./Images/Skills/django-svgrepo-com.png"
-import python from "./Images/Skills/python-svgrepo-com.png"
-import react from "./Images/Skills/react-javascript-js-framework-facebook-svgrepo-com.png"
-import mongodb from "./Images/Skills/mongo-svgrepo-com.png"
-import docker from "./Images/Skills/docker-svgrepo-com.png"
-import postgresql from "./Images/Skills/postgresql-svgrepo-com.png"
-import html from "./Images/Skills/html-5-svgrepo-com.png"
-import css from "./Images/Skills/css-3-svgrepo-com.png"
-import fastapi from "./Images/Skills/fastapi-svgrepo-com.png"
-import javascript from "./Images/Skills/javascript-svgrepo-com.png"
-import bootstrap from "./Images/Skills/bootstrap-fill-svgrepo-com.png"
-import tailwindcss from "./Images/Skills/tailwindcss-icon-svgrepo-com.png"
+import Django from "./Images/Skills/django-svgrepo-com.png"
+import Python from "./Images/Skills/python-svgrepo-com.png"
+import React from "./Images/Skills/react-javascript-js-framework-facebook-svgrepo-com.png"
+import MongoDB from "./Images/Skills/mongo-svgrepo-com.png"
+import Docker from "./Images/Skills/docker-svgrepo-com.png"
+import Postgresql from "./Images/Skills/postgresql-svgrepo-com.png"
+import HTML5 from "./Images/Skills/html-5-svgrepo-com.png"
+import CSS3 from "./Images/Skills/css-3-svgrepo-com.png"
+import FastAPI from "./Images/Skills/fastapi-svgrepo-com.png"
+import Javascript from "./Images/Skills/javascript-svgrepo-com.png"
+import Bootstrap from "./Images/Skills/bootstrap-fill-svgrepo-com.png"
+import TailwindCSS from "./Images/Skills/tailwindcss-icon-svgrepo-com.png"
 
 
 const Skills = () => {
+
+  let skillList = [
+    {"name": "Django",
+    "src": Django},
+    {"name": "Python",
+    "src": Python},
+    {"name": "React",
+    "src": React},
+    {"name": "MongoDB",
+    "src": MongoDB},
+    {"name": "Docker",
+    "src": Docker},
+    {"name": "Postgresql",
+    "src": Postgresql},
+    {"name": "HTML5",
+    "src": HTML5},
+    {"name": "CSS3",
+    "src": CSS3},
+    {"name": "FastAPI",
+    "src": FastAPI},
+    {"name": "Javascript",
+    "src": Javascript},
+    {"name": "Bootstrap",
+    "src": Bootstrap},
+    {"name": "TailwindCSS",
+    "src": TailwindCSS},
+  ];
+
   return (
     <>
     <div className="flex flex-col items-center">
-      <h1 className="txt text-3xl text-center my-4">Skills</h1>
+      <h1 className="txt text-2xl md:text-3xl text-center md:mb-[2%] mt-[4%] mb-[8%]">
+        Skills and tools I use
+      </h1>
       <div className="flex justify-center">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-16">
-            <div><img width="100" src={django}></img></div>
-            <div><img width="100" src={python}></img></div>
-            <div><img width="100" src={react}></img></div>
-            <div><img width="100" src={mongodb}></img></div>
-            <div><img width="100" src={docker}></img></div>
-            <div><img width="100" src={postgresql}></img></div>
-            <div><img width="100" src={html}></img></div>
-            <div><img width="100" src={css}></img></div>
-            <div><img width="100" src={fastapi}></img></div>
-            <div><img width="100" src={javascript}></img></div>
-            <div><img width="100" src={bootstrap}></img></div>
-            <div><img width="100" src={tailwindcss}></img></div>
+        <div className="mx-8 grid grid-cols-2 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 gap-4 md:gap-8">
+            {skillList?.map((skill) => (
+              <div
+                className="bg-base-100 text-base-content border border-gray-300 dark:border-gray-700 rounded-full
+                shadow p-4 text-center text-lg">
+                <img className="mx-auto" width="60" src={skill.src}>
+                </img>
+                {skill.name}
+              </div>
+            ))}
         </div>
       </div>
     </div>
