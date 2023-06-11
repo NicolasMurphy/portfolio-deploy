@@ -2,9 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import Footer from "./Footer";
 import Nav from "./Nav";
-import AboutMe from "./AboutMe"
 import Projects from "./Projects"
-import Resume from "./Resume"
+import Contact from "./Contact"
 import { useEffect, useState } from "react";
 import dark_mode_icon from "./Images/dark-mode-icon-blue.png";
 import light_mode_icon from "./Images/light-mode-icon-orange.png";
@@ -78,9 +77,8 @@ function App() {
 
             <Routes>
               <Route index element={<HomePage />} />
-              <Route path={"aboutme/"} element={<AboutMe />} />
+              <Route path={"contact/"} element={<Contact />} />
               <Route path={"projects/"} element={<Projects />} />
-              <Route path={"resume/"} element={<Resume />} />
             </Routes>
 
 

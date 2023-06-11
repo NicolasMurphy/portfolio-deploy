@@ -43,7 +43,7 @@ const Skills = () => {
 
   return (
     <>
-    <div className="flex flex-col items-center">
+    <div className="fade-in-5 flex flex-col items-center">
       <h1 className="txt text-2xl md:text-3xl text-center md:mb-[2%] mt-[4%] mb-[8%]">
         Skills and tools I use
       </h1>

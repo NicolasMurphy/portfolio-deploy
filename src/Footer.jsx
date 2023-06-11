@@ -12,21 +12,24 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
       >
-        <img width="40" src={GitLab}></img>
+        <img className="transition duration-300 ease-in-out hover:scale-110"
+        width="40" src={GitLab}></img>
       </a>
       <a
           href="https://github.com/NicolasMurphy"
           target="_blank"
           rel="noreferrer"
       >
-        <img width="40" src={GitHub}></img>
+        <img className="transition duration-300 ease-in-out hover:scale-110"
+         width="40" src={GitHub}></img>
       </a>
       <a
           href="https://www.linkedin.com/in/nicolas-murphy/"
           target="_blank"
           rel="noreferrer"
       >
-        <img width="40" src={LinkedIn}></img>
+        <img className="transition duration-300 ease-in-out hover:scale-110"
+         width="40" src={LinkedIn}></img>
       </a>
     </div>
   </div>

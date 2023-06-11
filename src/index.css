@@ -61,6 +61,90 @@
   animation-fill-mode: forwards;
 }
 
+.fade-in-5 {
+  animation: fadein 3s;
+  animation-delay: 2s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:2s;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:2s;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-6 {
+  animation: fadein 3s;
+  animation-delay: 2500ms;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:2500ms;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:2500ms;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-7 {
+  animation: fadein 3s;
+  animation-delay: 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:3s;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:3s;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-8 {
+  animation: fadein 3s;
+  animation-delay: 3500ms;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:3500ms;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:3500ms;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-9 {
+  animation: fadein 3s;
+  animation-delay: 4s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:4s;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:4s;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-10 {
+  animation: fadein 3s;
+  animation-delay: 4500ms;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:4500ms;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:4500ms;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-11 {
+  animation: fadein 3s;
+  animation-delay: 5s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:5s;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:5s;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
 @keyframes fadein {
   0% {
     opacity: 0;

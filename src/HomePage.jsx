@@ -18,13 +18,13 @@ const HomePage = () => {
               I am passionate about creating reliable,
             maintainable, scalable applications, with aesthetic
             interfaces, that are easy to use and understand.
-            The agile philosophy is something I strongly believe in,
+            The agile philosophy is something I strongly believe,
             for creating solutions that serve both the client and the user.
               </p>
             </div>
           </div>
       </div>
-      <div className="my-[12%] md:mt-[4%] mb-[20%] md:mb-[5%]">
+      <div className="my-[12%] md:mt-[6%] mb-[20%] md:mb-[9%]">
         <Skills />
       </div>
     </>
