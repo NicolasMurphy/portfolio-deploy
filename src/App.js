@@ -37,7 +37,7 @@ function App() {
 
       let mainDiv = document.getElementById("main-div");
       mainDiv.removeAttribute("data-theme");
-      mainDiv.setAttribute("data-theme", "business");
+      mainDiv.setAttribute("data-theme", "co");
     } else {
       setTheme("light");
       localStorage.setItem("theme", "light");

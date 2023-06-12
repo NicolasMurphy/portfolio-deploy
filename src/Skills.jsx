@@ -6,9 +6,9 @@ import Docker from "./Images/Skills/docker-svgrepo-com.png"
 import Postgresql from "./Images/Skills/postgresql-svgrepo-com.png"
 import HTML5 from "./Images/Skills/html-5-svgrepo-com.png"
 import CSS3 from "./Images/Skills/css-3-svgrepo-com.png"
-import FastAPI from "./Images/Skills/fastapi-svgrepo-com.png"
+import FastAPI from "./Images/Skills/fastapi-1.svg"
 import Javascript from "./Images/Skills/javascript-svgrepo-com.png"
-import Bootstrap from "./Images/Skills/bootstrap-fill-svgrepo-com.png"
+import Bootstrap from "./Images/Skills/NicePng_css3-logo-png_1415492.png"
 import TailwindCSS from "./Images/Skills/tailwindcss-icon-svgrepo-com.png"
 
 
@@ -51,6 +51,7 @@ const Skills = () => {
         <div className="mx-8 grid grid-cols-2 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 gap-4 md:gap-8">
             {skillList?.map((skill) => (
               <div
+                key={skill.name}
                 className="bg-base-100 text-base-content border border-gray-300 dark:border-gray-700 rounded-full
                 shadow p-4 text-center text-lg">
                 <img className="mx-auto" width="60" src={skill.src}>
