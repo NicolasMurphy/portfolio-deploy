@@ -1,4 +1,3 @@
-import Resume from "./Images/Resume.pdf"
 import Waving from "./Images/pngfind.com-cartoon-hand-png-2608798.png"
 
 const Contact = () => {
@@ -39,11 +38,3 @@ const Contact = () => {
   };
 
   export default Contact;
-
-
-
-
-
-
-
-{/* <button className="btn btn-primary" href="mailto:murphynick10@gmail.com">duuuuu</button> */}
