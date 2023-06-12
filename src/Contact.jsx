@@ -18,11 +18,15 @@ const Contact = () => {
                 </span>
             </div>
             <div className="fade-in-3 text-xl md:text-2xl">
-                Download my{" "}
+                View my{" "}
                 <span>
-                  <a href={Resume}
-                  className="font-medium text-info underline hover:no-underline">
-                  resume</a>
+                <a
+                  href="https://drive.google.com/file/d/1UijZyfWN2B0fjBLUJQeXy3j3wZCnSvRP/view?usp=drive_link"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-medium text-info underline hover:no-underline"
+                >Resume
+                </a>
                 </span>
             </div>
         </div>

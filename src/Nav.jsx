@@ -13,8 +13,11 @@ const Nav = () => {
       </label>
       <ul tabIndex={0} className="z-10 bg-neutral text-neutral-content menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-30">
         <li><NavLink to={"/projects/"}>Projects</NavLink></li>
-        <li><a href={Resume} target="_blank">
-          Resume
+        <li><a
+          href="https://drive.google.com/file/d/1UijZyfWN2B0fjBLUJQeXy3j3wZCnSvRP/view?usp=drive_link"
+          target="_blank"
+          rel="noreferrer"
+        >Resume
         </a></li>
         <li><NavLink to={"/contact/"}>Contact</NavLink></li>
       </ul>
@@ -25,9 +28,12 @@ const Nav = () => {
     <ul className="menu menu-horizontal px-1">
       <li><NavLink to={"/projects/"}>Projects</NavLink></li>
       <li><NavLink to={"/contact/"}>Contact</NavLink></li>
-      <li><a href={Resume} target="_blank">
-        Resume
-      </a></li>
+      <li><a
+          href="https://drive.google.com/file/d/1UijZyfWN2B0fjBLUJQeXy3j3wZCnSvRP/view?usp=drive_link"
+          target="_blank"
+          rel="noreferrer"
+        >Resume
+        </a></li>
     </ul>
   </div>
   <svg className="animate-bounce w-6 h-6 ...">
