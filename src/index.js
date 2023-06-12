@@ -4,8 +4,11 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 
+
+const domain = /https:\/\/[^/]+/;
+const basename = process.env.PUBLIC_URL.replace(domain, '');
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename={basename}>
     <React.StrictMode>
       <App />
     </React.StrictMode>
