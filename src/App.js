@@ -51,43 +51,39 @@ function App() {
     }
   };
   return (
-    <>
-<BrowserRouter >
-      <div id="main-div" data-theme="business">
-        <div className="mx-auto min-w-screen min-h-screen">
-        <div className="navbar">
-          <Nav />
-          <div className="navbar-end">
-            <button
-              onClick={handleThemeSwitch}
-              id="theme-toggle"
-              type="button"
-              className="mr-2"
-            >
-              <img
-                className="h-10"
-                id="theme-toggle-icon"
-                src={light_mode_icon}
-                alt="Theme Icon"
-              ></img>
-            </button>
-          </div>
+<>
+  <div id="main-div" data-theme="business">
+    <div className="mx-auto min-w-screen min-h-screen">
+      <div className="navbar">
+        <Nav />
+        <div className="navbar-end">
+          <button
+            onClick={handleThemeSwitch}
+            id="theme-toggle"
+            type="button"
+            className="mr-2"
+          >
+            <img
+              className="h-10"
+              id="theme-toggle-icon"
+              src={light_mode_icon}
+              alt="Theme Icon"
+            ></img>
+          </button>
         </div>
-
-
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path={"contact/"} element={<Contact />} />
-              <Route path={"projects/"} element={<Projects />} />
-            </Routes>
-
-
-
-        </div>
-        <Footer />
       </div>
-      </BrowserRouter>
-    </>
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path={"contact/"} element={<Contact />} />
+        <Route path={"projects/"} element={<Projects />} />
+      </Routes>
+
+    </div>
+    <Footer />
+  </div>
+</>
+
   );
 };
 
