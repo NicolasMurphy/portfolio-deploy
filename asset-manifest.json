@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-deploy/static/css/main.5cae64b1.css",
-    "main.js": "/portfolio-deploy/static/js/main.f6cb90a1.js",
+    "main.css": "/portfolio-deploy/static/css/main.269c5c9c.css",
+    "main.js": "/portfolio-deploy/static/js/main.6cfe354a.js",
     "static/media/BookBountySignup.png": "/portfolio-deploy/static/media/BookBountySignup.1a1dd9ffce38cea0787b.png",
     "static/media/BookBountyLogin.png": "/portfolio-deploy/static/media/BookBountyLogin.691bf1bc9427148d1d5f.png",
     "static/media/photoofmebackyard.jpg": "/portfolio-deploy/static/media/photoofmebackyard.0e042778d3736dd4dccb.jpg",
@@ -31,11 +31,11 @@
     "static/media/slick.woff": "/portfolio-deploy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-deploy/index.html",
     "static/media/fastapi-1.svg": "/portfolio-deploy/static/media/fastapi-1.6c84dc4ea9626837be0ce2c5523b6d52.svg",
-    "main.5cae64b1.css.map": "/portfolio-deploy/static/css/main.5cae64b1.css.map",
-    "main.f6cb90a1.js.map": "/portfolio-deploy/static/js/main.f6cb90a1.js.map"
+    "main.269c5c9c.css.map": "/portfolio-deploy/static/css/main.269c5c9c.css.map",
+    "main.6cfe354a.js.map": "/portfolio-deploy/static/js/main.6cfe354a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cae64b1.css",
-    "static/js/main.f6cb90a1.js"
+    "static/css/main.269c5c9c.css",
+    "static/js/main.6cfe354a.js"
   ]
 }
