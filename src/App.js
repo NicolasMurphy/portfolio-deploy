@@ -37,7 +37,7 @@ function App() {
 
       let mainDiv = document.getElementById("main-div");
       mainDiv.removeAttribute("data-theme");
-      mainDiv.setAttribute("data-theme", "co");
+      mainDiv.setAttribute("data-theme", "corporate");
     } else {
       setTheme("light");
       localStorage.setItem("theme", "light");
@@ -77,9 +77,9 @@ function App() {
       </div>
 
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path={"contact/"} element={<Contact />} />
-        <Route path={"projects/"} element={<Projects />} />
+        <Route index element={<HomePage />} />
+        <Route path="contact/" element={<Contact />} />
+        <Route path="projects/" element={<Projects />} />
       </Routes>
 
     </div>
