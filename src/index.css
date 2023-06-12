@@ -154,3 +154,7 @@
     opacity: 1;
   }
 }
+
+#firefox-image-rotation {
+  image-orientation: from-image;
+}
