@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio-deploy/static/css/main.5cae64b1.css",
+    "main.js": "/portfolio-deploy/static/js/main.9f578fe6.js",
+    "static/media/BookBountySignup.png": "/portfolio-deploy/static/media/BookBountySignup.1a1dd9ffce38cea0787b.png",
+    "static/media/BookBountyLogin.png": "/portfolio-deploy/static/media/BookBountyLogin.691bf1bc9427148d1d5f.png",
+    "static/media/photoofmebackyard.jpg": "/portfolio-deploy/static/media/photoofmebackyard.0e042778d3736dd4dccb.jpg",
+    "static/media/CarCarNotFullscreen.png": "/portfolio-deploy/static/media/CarCarNotFullscreen.de8ae2ec87a578822d52.png",
+    "static/media/BookBountyHomepageLight.png": "/portfolio-deploy/static/media/BookBountyHomepageLight.807e41ddc1454ce0077b.png",
+    "static/media/BookBountyMobileHome.png": "/portfolio-deploy/static/media/BookBountyMobileHome.eb13efb948827eb3a58f.png",
+    "static/media/BookBountyMobileSearch.png": "/portfolio-deploy/static/media/BookBountyMobileSearch.eaac1a092996d2c2ed29.png",
+    "static/media/CarCarModels.png": "/portfolio-deploy/static/media/CarCarModels.f7491f50b79ba986c908.png",
+    "static/media/Resume.pdf": "/portfolio-deploy/static/media/Resume.02aae0fa8c042578e062.pdf",
+    "static/media/NicePng_css3-logo-png_1415492.png": "/portfolio-deploy/static/media/NicePng_css3-logo-png_1415492.c8bb8224feac23daa7b7.png",
+    "static/media/BookBountyMobileUsers.png": "/portfolio-deploy/static/media/BookBountyMobileUsers.a59a25a34180cdf01576.png",
+    "static/media/CarCarAppointments.png": "/portfolio-deploy/static/media/CarCarAppointments.ffb711ecd97fabd88a13.png",
+    "static/media/postgresql-svgrepo-com.png": "/portfolio-deploy/static/media/postgresql-svgrepo-com.8784b3afbac3051292d3.png",
+    "static/media/mongo-svgrepo-com.png": "/portfolio-deploy/static/media/mongo-svgrepo-com.4f6cdcbfec7f7c82b62c.png",
+    "static/media/react-javascript-js-framework-facebook-svgrepo-com.png": "/portfolio-deploy/static/media/react-javascript-js-framework-facebook-svgrepo-com.c31247ab08869dbed351.png",
+    "static/media/tailwindcss-icon-svgrepo-com.png": "/portfolio-deploy/static/media/tailwindcss-icon-svgrepo-com.f64c9a3cb3ad979d59c8.png",
+    "static/media/github-142-svgrepo-com.png": "/portfolio-deploy/static/media/github-142-svgrepo-com.aa5fc7ecee8f54e6a81c.png",
+    "static/media/python-svgrepo-com.png": "/portfolio-deploy/static/media/python-svgrepo-com.23af0fd2999c30ca3e08.png",
+    "static/media/pngfind.com-cartoon-hand-png-2608798.png": "/portfolio-deploy/static/media/pngfind.com-cartoon-hand-png-2608798.9724a91c1c466b8ae3a8.png",
+    "static/media/css-3-svgrepo-com.png": "/portfolio-deploy/static/media/css-3-svgrepo-com.5aeab9163633ee70e98b.png",
+    "static/media/html-5-svgrepo-com.png": "/portfolio-deploy/static/media/html-5-svgrepo-com.586454dd19897e95c00b.png",
+    "static/media/docker-svgrepo-com.png": "/portfolio-deploy/static/media/docker-svgrepo-com.d652e83cf78371bcfc64.png",
+    "static/media/gitlab-svgrepo-com.png": "/portfolio-deploy/static/media/gitlab-svgrepo-com.a7eb416b228a274155e1.png",
+    "static/media/slick.svg": "/portfolio-deploy/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio-deploy/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio-deploy/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio-deploy/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio-deploy/index.html",
+    "static/media/fastapi-1.svg": "/portfolio-deploy/static/media/fastapi-1.6c84dc4ea9626837be0ce2c5523b6d52.svg",
+    "main.5cae64b1.css.map": "/portfolio-deploy/static/css/main.5cae64b1.css.map",
+    "main.9f578fe6.js.map": "/portfolio-deploy/static/js/main.9f578fe6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cae64b1.css",
+    "static/js/main.9f578fe6.js"
+  ]
+}
